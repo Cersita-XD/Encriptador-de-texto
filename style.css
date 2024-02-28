@@ -17,7 +17,7 @@
   width: calc(70% - 40px);
   margin: 2vw;
   padding: 2vw;
-  border: 3px solid #2C3E50;
+  border: 4px solid #2C3E50;
   border-radius: 20px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
   text-align: center;
@@ -33,7 +33,7 @@
   width: calc(30% - 40px);
   margin: 2vw;
   padding: 2vw;
-  border: 3px solid #2C3E50;
+  border: 4px solid #2C3E50;
   border-radius: 20px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
   text-align: center;
@@ -70,7 +70,11 @@
 #btn:disabled {
   opacity: 0.7; 
   cursor: not-allowed;
+  color: #aaa;
+  border-color: #ccc; 
+  background-color: #eee;
 }
+
 
 /* ANIMACION DE LOS BOTONES*/
 #btn::before,
