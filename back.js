@@ -41,7 +41,6 @@ function encrip() {
     document.querySelector('.btn-desencriptar').disabled = false;
     document.querySelector('.btn-copiar').disabled = false;
     document.getElementById("texto").disabled=true;
-
 }
 //FUNCION PARA LA DESENCRIPTACION DEL TEXTO//
 function reverse() {
@@ -75,7 +74,6 @@ function reverse() {
     document.querySelector('.btn-desencriptar').disabled = true;
     document.querySelector('.btn-copiar').disabled = true;
     document.getElementById("texto").disabled=false;
-
 }
 //FUNCION PARA EL COPIADO EN EL PORTAPAPELES//
 function copiar() {
