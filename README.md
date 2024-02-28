@@ -2,4 +2,4 @@
 
 Encriptador de Texto, elaborado para el challenge de Alura ONE :333
 
-![App Screenshot](https://github.com/Cersita-XD/Encriptador-de-texto/blob/main/Encriptador/SS/SS.png?raw=true)
+![App Screenshot](https://github.com/Cersita-XD/Encriptador-de-texto/blob/main/SS/SS.png?raw=true)
