@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="all">
+    <div id="container">
+        <main class="cuerpo">
+            <section>
+                <textarea name="txt_encrip" id="texto"  cols="30" rows="10" placeholder="Por favor, ingrese el texto que desea encriptar." required></textarea><br>
+                <div class="btns">
+                    <button type="button" onclick="encrip()" id="btn" class="btn-encriptar">Encriptar</button>
+                    <button type="button" onclick="reverse()" id="btn" class="btn-desencriptar" disabled>Desencriptar</button>
+                </div>
+            </section>
+        </main>
+        <aside class="lateral">
+            <textarea name="txt-desencrip" id="salida" cols="30" rows="10" placeholder="Aquí se mostrará su texto encriptado." disabled></textarea><br>
+            <div class="btns">
+                <button type="button" onclick="copiar()" id="btn" class="btn-copiar" disabled>Copiar</button><br>
+            </div> 
+        </aside>
+    </div>
+    <footer id="pie">
+        <div class="footer">
+            <div class="vinculos">
+                <a href="https://github.com/Cersita-XD/Encriptador-de-texto" target="blank"><img src="https://cdn-icons-png.flaticon.com/128/3291/3291667.png" alt="GitHub" class="img"></a>
+                <a href="https://www.linkedin.com/in/césar-perozo-245b052aa/" target="blank"><img src="https://cdn-icons-png.flaticon.com/128/3938/3938061.png" alt=" LinedIn" class="img"></a>
+            </div>
+        </div>
+    </footer>
+<script src="back.js"></script>
+</body>
+</html>
